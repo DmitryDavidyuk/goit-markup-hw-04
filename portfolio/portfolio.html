@@ -29,8 +29,17 @@
             </nav>
     
             <ul class="header-list list">
-                <li><a class="link header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li>
+                    <a class="link header-mail" href="mailto:info@devstudio.com">
+                        <svg class="icon-mail" width="16" height="12">
+                            <use href="../images/icons.svg#icon-envelope-hover"></use>
+                        </svg>info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="link header-tel" href="tel:+380961111111"><svg class="icon-tell" width="10" height="16">
+                            <use href="../images/icons.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -97,9 +106,10 @@
             </div>
         </section>   
     </main>
-    <footer>
-        <section class="section footer">
-            <div class="container">
+<footer>
+    <section class="section footer">
+        <div class="container subscribe">
+            <div class="info">
                 <a class="footer-logo link" href="/"><span class="logo-title">Web</span>Studio</a>
                 <address class="footer-info">г. Киев, пр-т Леси Украинки, 26</address>
                 <ul class="list">
@@ -107,8 +117,42 @@
                     <li><a class="link footer-tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
                 </ul>
             </div>
-        </section>
-    </footer>
+            <div class="subscribe-box">
+                <p class="subscribe-title">присоединяйтесь</p>
+                <ul class="list list-item-footer">
+                    <li class="social-list-item">
+                        <a href="" class="social-link-footer">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="../images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class="social-link-footer">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="../images/icons.svg#icon-twitter "></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class="social-link-footer">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="../images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class="social-link-footer">
+                            <svg class="social-icon" width="20" height="20">
+                                <use href="../images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</footer>
 </body>
 
 </html>
